@@ -50,7 +50,7 @@ function getSentence(arr, zeichen)
                   str = str + arr[i] + EXCL;
                   break;
                 default:
-                  return output("Ungültige Eingabe");
+                  return "Ungültige Eingabe";
             }      
 
         }
